@@ -1,0 +1,149 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Manrope',sans-serif;
+}
+h4{
+	background-color:#e6e8e7;
+}
+body{
+display:flex;
+flex-direction:column;
+background-image:url("photo-1499289944739-7707f1ae6fbf.avif");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+min-height:100vh;
+}
+
+.contact{
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+.navHeader {
+display:flex;
+padding:20px 40px;
+justify-content:space-between;
+
+}
+.footerButton{
+	display:flex;
+	justify-content:center;
+	margin: 10px;
+	column-gap: 10px;
+	
+}
+
+
+ a{
+text-decoration:none;
+color:#333;
+}
+img{
+	
+
+transition:transform .2s;
+}
+
+img:hover{
+transform:scale(1.08);
+}
+
+
+.main{
+text-align:center;
+padding:60px 20px;
+}
+
+.main h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.main p{
+margin-bottom:20px;
+color:#444;
+}
+
+
+.project{
+padding:80px 20px;
+text-align:center;
+}
+
+.projectCard{
+
+width:500px;
+
+margin:40px auto;
+
+padding:20px;
+
+background:white;
+
+border-radius:6px;
+
+
+}
+
+
+
+
+.carousel{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+}
+.contact{
+padding:80px 20px;
+text-align:center;
+}
+#kali{
+	background-color:white;
+}
+form{
+max-width:400px;
+margin:30px auto;
+
+display:flex;
+flex-direction:column;
+
+gap:10px;
+}
+
+input, textarea{
+padding:10px;
+border:1px solid;
+border-radius:4px;
+}
+
+footer{
+padding:20px;
+text-align:center;
+background:white;
+margin-top:auto;
+}
+
+#cisco{
+	max-width:300px;
+	margin:50px;
+}
+#redHat{
+	max-width:300px;
+	margin:50px;
+}
+#java{
+	max-width:300px;
+	margin:50px;
+}
+h5{
+	text-decoration:underline;
+}
+.card-text-list{
+padding-left:1.25rem;
+margin-top:15px;
+}
