@@ -1,8 +1,8 @@
 const budgetPhotos = [
-    "BudgetPicture.png",
-    "signup.png",
-    "budgets.png",
-    "CodeSnippet.png",
+    "BudgetPicture.PNG",
+    "signup.PNG",
+    "budgets.PNG",
+    "CodeSnippet.PNG",
 ]
 
 const leftButton = document.querySelector("#leftSlide");
@@ -24,3 +24,4 @@ function moveRight() {
     i = i === (budgetPhotos.length-1) ? 0 : i+1;
     budgetPhoto.setAttribute("src", budgetPhotos[i]);
 }
+
